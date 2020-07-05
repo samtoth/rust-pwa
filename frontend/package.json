@@ -1,0 +1,13 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "pack": "inline-assets --htmlmin --jsmin --cssmin static/index.html ./../static/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "inline-assets": "^1.4.6"
+  }
+}
